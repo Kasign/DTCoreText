@@ -29,14 +29,7 @@
 #import "DTCoreTextFontDescriptor.h"
 #import "DTCoreTextParagraphStyle.h"
 #import "DTHTMLAttributedStringBuilder.h"
-#import "DTHTMLElement.h"
-#import "DTAnchorHTMLElement.h"
-#import "DTBreakHTMLElement.h"
-#import "DTListItemHTMLElement.h"
-#import "DTHorizontalRuleHTMLElement.h"
-#import "DTStylesheetHTMLElement.h"
-#import "DTTextAttachmentHTMLElement.h"
-#import "DTTextHTMLElement.h"
+
 #import "DTHTMLWriter.h"
 #import "NSCharacterSet+HTML.h"
 #import "NSCoder+DTCompatibility.h"
@@ -52,6 +45,16 @@
 #import "NSString+Paragraphs.h"
 #import "NSNumber+RomanNumerals.h"
 
+// element
+#import "DTHTMLElement.h"
+#import "DTAnchorHTMLElement.h"
+#import "DTBreakHTMLElement.h"
+#import "DTListItemHTMLElement.h"
+#import "DTHorizontalRuleHTMLElement.h"
+#import "DTStylesheetHTMLElement.h"
+#import "DTTextAttachmentHTMLElement.h"
+#import "DTTextHTMLElement.h"
+
 // parsing classes
 #import "DTHTMLParserNode.h"
 #import "DTHTMLParserTextNode.h"
@@ -63,6 +66,9 @@
 #import "DTImageTextAttachment.h"
 #import "DTObjectTextAttachment.h"
 #import "DTVideoTextAttachment.h"
+#import "DTTableTextAttachment.h"
+#import "DTLoadingTextAttachment.h"
+#import "DTClickPopAttachment.h"
 
 #import "NSAttributedStringRunDelegates.h"
 
